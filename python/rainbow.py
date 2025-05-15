@@ -7,7 +7,7 @@ fig, ax =plt.subplots()
 
 fig.patch.set_facecolor('skyblue')
 ax.set_facecolor('skyblue')
-
+print("hello")
 for i,color in enumerate(colors):
     radius = 10-i
     theta = np.linspace(0,np.pi,100)
